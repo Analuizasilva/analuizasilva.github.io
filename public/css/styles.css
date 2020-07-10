@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  font-family: "Balsamiq Sans", cursive;
+  background-color: #006279;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  font-size: 20px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li:hover {
+  text-shadow: 0px 1px brown;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu a {
+  display: block;
+  padding: 10px 20px;
+  color: blanchedalmond;
+  text-decoration: none;
+}
+
+.home {
+  padding-top: 165px;
+}
