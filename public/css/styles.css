@@ -37,6 +37,12 @@
   color: blanchedalmond;
   text-decoration: none;
 }
+body {
+  background-color: blanchedalmond;
+  background-size: auto 320vh;
+  font-family: Arial;
+  height: 200vh;
+}
 
 .home {
   padding-top: 165px;
@@ -44,8 +50,8 @@
 
 .photo-container {
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   margin-top: 80px;
   margin-bottom: 30px;
   object-fit: cover;
@@ -53,4 +59,105 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.subtitle,
+.title {
+  font-family: "Balsamiq Sans", cursive;
+  text-align: center;
+  color: brown;
+  font-size: 80px;
+}
+
+.about-me h2 {
+  font-family: "Balsamiq Sans", cursive;
+  text-align: center;
+  margin-top: 300px;
+  margin-bottom: 15px;
+  font-size: 30px;
+  color: brown;
+}
+
+.about-me h3 {
+  text-align: justify;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.skills {
+  margin-bottom: 3.5em;
+  padding: 2em;
+  color: brown;
+  height: 100vg;
+}
+
+.projects h1,
+.skills h2 {
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 230px;
+  padding-bottom: 30px;
+  color: brown;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 560px) {
+  .skills .grid {
+    grid-template-columns: px 240px;
+  }
+}
+
+@media (min-width: 880px) {
+  .skills .grid {
+    grid-template-columns: repeat(4, 200px);
+    align-content: center;
+    justify-content: center;
+    height: calc(30vh -30vh - 48px - 8em);
+  }
+}
+
+.skills .grid {
+  display: grid;
+  gap: 2em;
+}
+
+.skills figure {
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 3.5em;
+}
+
+.networks {
+  color: brown;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 280px;
+}
+
+.networks a {
+  font-size: 6em;
+  color: brown;
+  text-decoration: none;
+}
+
+.networks a:hover {
+  text-shadow: 0px 5px cadetblue;
+}
+
+.skills,
+.networks h2 {
+  font-size: 40px;
+  font-family: "Balsamiq Sans", cursive;
+  padding-bottom: 50px;
+}
+
+.projects figure {
+  object-fit: cover;
+  display: block;
+}
+.lennuyeuse {
+  margin-bottom: 100px;
 }
