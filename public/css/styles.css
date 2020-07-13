@@ -14,8 +14,9 @@
   background-color: brown;
   position: fixed;
   width: 100vw;
+  height: 50px;
   top: 0;
-  font-size: 20px;
+  font-size: 23px;
 }
 
 .menu ul {
@@ -38,7 +39,7 @@
   text-decoration: none;
 }
 body {
-  background-color: blanchedalmond;
+  background-color: beige;
   background-size: auto 320vh;
   font-family: Arial;
   height: 200vh;
@@ -46,6 +47,7 @@ body {
 
 .home {
   padding-top: 165px;
+  margin-bottom: 300px;
 }
 
 .photo-container {
@@ -69,20 +71,29 @@ body {
   font-size: 80px;
 }
 
-.about-me h2 {
+.subtitle {
+  font-size: 50px;
+  margin-bottom: 100px;
+}
+.about h2 {
   font-family: "Balsamiq Sans", cursive;
   text-align: center;
-  margin-top: 300px;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
   font-size: 30px;
   color: brown;
 }
-
-.about-me h3 {
+.about {
+  padding-top: 200px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.about h3 {
   text-align: justify;
   margin-top: 30px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-bottom: 300px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 30px;
 }
 
 .skills {
@@ -97,10 +108,9 @@ body {
   font-family: "Balsamiq Sans", cursive;
   font-size: 40px;
   text-align: center;
-  padding-top: 230px;
-  padding-bottom: 30px;
+  padding-top: 300px;
+  padding-bottom: 50px;
   color: brown;
-  margin-bottom: 50px;
 }
 
 @media (min-width: 560px) {
@@ -127,20 +137,33 @@ body {
   text-align: center;
   width: 150px;
   height: 150px;
-  margin-bottom: 3.5em;
+}
+.projects figure {
+  object-fit: cover;
+  display: block;
+  margin-left: 60px;
+  object-fit: cover;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lennuyeuse {
+  margin-bottom: 100px;
 }
 
 .networks {
   color: brown;
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 280px;
+  margin: 400px;
 }
 
 .networks a {
   font-size: 6em;
   color: brown;
   text-decoration: none;
+  margin-bottom: 200px;
+  margin-top: 250px;
 }
 
 .networks a:hover {
@@ -151,13 +174,8 @@ body {
 .networks h2 {
   font-size: 40px;
   font-family: "Balsamiq Sans", cursive;
-  padding-bottom: 50px;
+  margin: 300px;
 }
-
-.projects figure {
-  object-fit: cover;
-  display: block;
-}
-.lennuyeuse {
-  margin-bottom: 100px;
+.networks h2 {
+  margin-bottom: 20px;
 }
