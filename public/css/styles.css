@@ -73,11 +73,8 @@
   font-size: 50px;
   margin-bottom: 20px;
 }
-.fa-envelope {
-  font-size: 70px;
-  color: #e1af2c;
-}
-.icon-instagran {
+
+.icon-instagram {
   width: 57px;
   height: 57px;
 }
@@ -97,6 +94,7 @@
 
 .networks a:hover {
   text-shadow: 0px 5px cadetblue;
+  text-decoration: none;
 }
 
 .skills,
@@ -109,24 +107,21 @@
   margin-bottom: 40px;
 }
 
-.education h2,
-.about h2 {
+.about h1 {
   font-family: "Balsamiq Sans", cursive;
   text-align: center;
   margin-bottom: 40px;
   font-size: 30px;
   color: brown;
 }
+
 .about {
   padding-top: 200px;
   padding-left: 200px;
   padding-right: 200px;
 }
 
-.education h3 {
-  text-align: center;
-}
-.about h3 {
+.about h2 {
   text-align: justify;
   margin-top: 30px;
   margin-bottom: 300px;
@@ -141,8 +136,10 @@
   height: 100vg;
 }
 
+.education h1,
+.contacts h1,
 .projects h1,
-.skills h2 {
+.skills h1 {
   font-family: "Balsamiq Sans", cursive;
   font-size: 40px;
   text-align: center;
@@ -192,4 +189,22 @@
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   filter: invert(100%);
+}
+
+.fa-envelope {
+  font-size: 30px;
+  color: #e1af2c;
+}
+
+.fa-mobile-alt {
+  color: blue;
+}
+
+.education h2,
+.contacts h2 {
+  text-align: center;
+}
+
+.contacts {
+  margin: 400px;
 }
