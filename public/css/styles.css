@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.body {
+  background-color: blanchedalmond;
+}
 .header {
   display: flex;
   justify-content: center;
@@ -38,12 +42,6 @@
   color: blanchedalmond;
   text-decoration: none;
 }
-body {
-  background-color: beige;
-  background-size: auto 320vh;
-  font-family: Arial;
-  height: 200vh;
-}
 
 .home {
   padding-top: 165px;
@@ -67,14 +65,51 @@ body {
 .title {
   font-family: "Balsamiq Sans", cursive;
   text-align: center;
-  color: brown;
+  color: black;
   font-size: 80px;
 }
 
 .subtitle {
   font-size: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
+.fa-envelope {
+  font-size: 70px;
+  color: #e1af2c;
+}
+.icon-instagran {
+  width: 57px;
+  height: 57px;
+}
+.networks {
+  color: brown;
+  text-align: center;
+  font-size: 10px;
+}
+
+.networks a {
+  font-size: 6em;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 200px;
+  margin-top: 250px;
+}
+
+.networks a:hover {
+  text-shadow: 0px 5px cadetblue;
+}
+
+.skills,
+.networks h2 {
+  font-size: 40px;
+  font-family: "Balsamiq Sans", cursive;
+  margin: 300px;
+}
+.networks h2 {
+  margin-bottom: 40px;
+}
+
+.education h2,
 .about h2 {
   font-family: "Balsamiq Sans", cursive;
   text-align: center;
@@ -86,6 +121,10 @@ body {
   padding-top: 200px;
   padding-left: 200px;
   padding-right: 200px;
+}
+
+.education h3 {
+  text-align: center;
 }
 .about h3 {
   text-align: justify;
@@ -99,7 +138,6 @@ body {
 .skills {
   margin-bottom: 3.5em;
   padding: 2em;
-  color: brown;
   height: 100vg;
 }
 
@@ -138,6 +176,7 @@ body {
   width: 150px;
   height: 150px;
 }
+
 .projects figure {
   object-fit: cover;
   display: block;
@@ -147,35 +186,10 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-.lennuyeuse {
-  margin-bottom: 100px;
-}
-
-.networks {
-  color: brown;
-  text-align: center;
-  margin: 400px;
-}
-
-.networks a {
-  font-size: 6em;
-  color: brown;
-  text-decoration: none;
   margin-bottom: 200px;
-  margin-top: 250px;
 }
 
-.networks a:hover {
-  text-shadow: 0px 5px cadetblue;
-}
-
-.skills,
-.networks h2 {
-  font-size: 40px;
-  font-family: "Balsamiq Sans", cursive;
-  margin: 300px;
-}
-.networks h2 {
-  margin-bottom: 20px;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
 }
