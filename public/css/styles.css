@@ -22,6 +22,10 @@
   top: 0;
   font-size: 23px;
 }
+a:hover {
+  color: none;
+  text-decoration: none;
+}
 
 .menu ul {
   display: flex;
@@ -29,7 +33,7 @@
 }
 
 .menu li:hover {
-  text-shadow: 0px 1px brown;
+  text-shadow: 0px 3px cadetblue;
 }
 
 .menu li {
@@ -40,7 +44,6 @@
   display: block;
   padding: 10px 20px;
   color: blanchedalmond;
-  text-decoration: none;
 }
 
 .home {
@@ -71,15 +74,16 @@
 
 .subtitle {
   font-size: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .icon-instagram {
-  width: 57px;
-  height: 57px;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 14px;
 }
+
 .networks {
-  color: brown;
   text-align: center;
   font-size: 10px;
 }
@@ -94,7 +98,6 @@
 
 .networks a:hover {
   text-shadow: 0px 5px cadetblue;
-  text-decoration: none;
 }
 
 .skills,
@@ -111,7 +114,7 @@
   font-family: "Balsamiq Sans", cursive;
   text-align: center;
   margin-bottom: 40px;
-  font-size: 30px;
+  font-size: 40px;
   color: brown;
 }
 
@@ -122,6 +125,7 @@
 }
 
 .about h2 {
+  font-family: "Balsamiq Sans", cursive;
   text-align: justify;
   margin-top: 30px;
   margin-bottom: 300px;
