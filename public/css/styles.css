@@ -167,6 +167,29 @@ a:hover {
   }
 }
 
+@media (min-width: 560px) {
+  .about .grid {
+    grid-template-columns: px 240px;
+  }
+}
+
+@media (min-width: 880px) {
+  .about .grid {
+    grid-template-columns: repeat(4, 200px);
+    align-content: center;
+    justify-content: center;
+    height: calc(30vh -30vh - 48px - 8em);
+  }
+}
+
+.conhecimento .grid {
+  display: grid;
+  gap: 2em;
+}
+.icon-ifes {
+  height: 80px;
+}
+
 .skills .grid {
   display: grid;
   gap: 2em;
@@ -195,6 +218,30 @@ a:hover {
   filter: invert(100%);
 }
 
+.education h2,
+.contacts h2 {
+  text-align: center;
+}
+.icon-ifes {
+  object-fit: cover;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon-recodme {
+  object-fit: cover;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list {
+  text-align: center;
+}
+
 .fa-envelope {
   font-size: 30px;
   color: #e1af2c;
@@ -204,11 +251,26 @@ a:hover {
   color: blue;
 }
 
-.education h2,
-.contacts h2 {
-  text-align: center;
-}
-
 .contacts {
   margin: 400px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blanchedalmond;
+}
+
+.footer-container {
+  font-family: "Balsamiq Sans", cursive;
+  background-color: brown;
+  width: 100vw;
+  height: 50px;
+  text-align: center;
+  padding: 15px 15px;
+}
+
+.img-thumbnail-blue {
+  background-color: #1e90ff;
 }
