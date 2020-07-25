@@ -14,14 +14,15 @@
 }
 
 .menu {
-  font-family: "Balsamiq Sans", cursive;
+  font-family: Muli, Helvética, H, Trebuchet MS;
   background-color: brown;
   position: fixed;
   width: 100vw;
   height: 50px;
   top: 0;
-  font-size: 23px;
+  font-size: 22px;
 }
+
 a:hover {
   color: none;
   text-decoration: none;
@@ -48,7 +49,7 @@ a:hover {
 
 .home {
   padding-top: 165px;
-  margin-bottom: 300px;
+  height: 100vh;
 }
 
 .photo-container {
@@ -66,9 +67,10 @@ a:hover {
 
 .subtitle,
 .title {
-  font-family: "Balsamiq Sans", cursive;
+  font-weight: bold;
+  font-family: Arial, "Times New Roman", Times, serif;
   text-align: center;
-  color: black;
+  color: brown;
   font-size: 80px;
 }
 
@@ -102,92 +104,109 @@ a:hover {
 
 .skills,
 .networks h2 {
-  font-size: 40px;
-  font-family: "Balsamiq Sans", cursive;
+  font-size: 35px;
+  font-family: "Noto Serif", Georgia, serif;
   margin: 300px;
 }
 .networks h2 {
   margin-bottom: 40px;
 }
 
-.about h1 {
-  font-family: "Balsamiq Sans", cursive;
-  text-align: center;
-  margin-bottom: 40px;
-  font-size: 40px;
-  color: brown;
-}
-
 .about {
   padding-top: 200px;
-  padding-left: 200px;
-  padding-right: 200px;
+  height: 100vh;
+}
+
+.about h1 {
+  font-family: Arial, "Times New Roman", Times, serif;
+  font-size: 35px;
+  color: brown;
+  text-align: center;
+  font-weight: bold;
 }
 
 .about h2 {
-  font-family: "Balsamiq Sans", cursive;
-  text-align: justify;
-  margin-top: 30px;
+  font-family: "Noto Serif", Georgia, serif;
+  margin-top: 35px;
   margin-bottom: 300px;
   margin-left: 200px;
   margin-right: 200px;
   font-size: 30px;
+  text-align: justify;
 }
 
 .skills {
-  margin-bottom: 3.5em;
-  padding: 2em;
-  height: 100vg;
+  height: 100vh;
+  padding-top: 200px;
 }
 
+@media (min-width: 560px) {
+  .skills .grid {
+    grid-template-columns: px 240px;
+  }
+}
+
+@media (min-width: 880px) {
+  .skills .grid {
+    grid-template-columns: repeat(5, 200px);
+    align-content: center;
+    justify-content: center;
+    height: calc(30vh -30vh - 48px - 8em);
+  }
+}
+
+@media (min-width: 560px) {
+  .menu .grid {
+    grid-template-columns: px 240px;
+  }
+}
+
+@media (min-width: 880px) {
+  .menu .grid {
+    grid-template-columns: repeat(4, 200px);
+    align-content: center;
+    justify-content: center;
+    height: calc(30vh -30vh - 48px - 8em);
+  }
+}
+
+.icon-sql {
+  width: 200px;
+  height: auto;
+  padding-bottom: 50px;
+}
+
+.about h1 {
+  font-family: Arial, "Times New Roman", Times, serif;
+  font-size: 35px;
+  color: brown;
+  text-align: center;
+  font-weight: bold;
+}
+
+.skills h1,
 .education h1,
 .contacts h1,
-.projects h1,
-.skills h1 {
-  font-family: "Balsamiq Sans", cursive;
-  font-size: 40px;
+.projects h1 {
+  font-family: Arial, "Times New Roman", Times, serif;
+  font-size: 35px;
   text-align: center;
-  padding-top: 300px;
-  padding-bottom: 50px;
   color: brown;
+  font-weight: bold;
+  margin-bottom: 35px;
 }
 
-@media (min-width: 560px) {
-  .skills .grid {
-    grid-template-columns: px 240px;
-  }
+.projects {
+  height: 100vh;
 }
 
-@media (min-width: 880px) {
-  .skills .grid {
-    grid-template-columns: repeat(4, 200px);
-    align-content: center;
-    justify-content: center;
-    height: calc(30vh -30vh - 48px - 8em);
-  }
-}
-
-@media (min-width: 560px) {
-  .about .grid {
-    grid-template-columns: px 240px;
-  }
-}
-
-@media (min-width: 880px) {
-  .about .grid {
-    grid-template-columns: repeat(4, 200px);
-    align-content: center;
-    justify-content: center;
-    height: calc(30vh -30vh - 48px - 8em);
-  }
+.skills-group {
+  padding-top: 120px;
 }
 
 .conhecimento .grid {
   display: grid;
   gap: 2em;
-}
-.icon-ifes {
-  height: 80px;
 }
 
 .skills .grid {
@@ -201,16 +220,8 @@ a:hover {
   height: 150px;
 }
 
-.projects figure {
-  object-fit: cover;
-  display: block;
-  margin-left: 60px;
-  object-fit: cover;
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 200px;
+.projects-group {
+  padding-top: 250px;
 }
 
 .carousel-control-prev-icon,
@@ -221,25 +232,41 @@ a:hover {
 .education h2,
 .contacts h2 {
   text-align: center;
+  font-size: 30px;
+  font-family: "Noto Serif", Georgia, serif;
+  font-weight: bold;
 }
+
+.education {
+  margin-bottom: 100px;
+  height: 100vh;
+}
+
+.education-group {
+  padding-top: 200px;
+}
+
+.category {
+  font-weight: bold;
+}
+.list-education-recodme {
+  padding-left: 40px;
+  text-align: justify;
+}
+
+.card-ifes {
+  margin-left: 700px;
+  position: static;
+  box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 0px;
+}
+
 .icon-ifes {
   object-fit: cover;
   text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-.icon-recodme {
-  object-fit: cover;
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.list {
-  text-align: center;
 }
 
 .fa-envelope {
@@ -252,25 +279,23 @@ a:hover {
 }
 
 .contacts {
-  margin: 400px;
+  padding-top: 400px;
+  height: 100vh;
 }
 
 .footer {
   display: flex;
-  justify-content: center;
-  align-items: center;
   color: blanchedalmond;
 }
 
 .footer-container {
-  font-family: "Balsamiq Sans", cursive;
+  font-family: "Rubik", sans-serif;
   background-color: brown;
   width: 100vw;
   height: 50px;
   text-align: center;
-  padding: 15px 15px;
+  margin: 0;
 }
-
-.img-thumbnail-blue {
-  background-color: #1e90ff;
+.text-footer {
+  margin: 15px;
 }
