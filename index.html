@@ -41,17 +41,32 @@
 
   <body class="body">
     <header>
-      <nav class="menu">
-        <ul>
-          <li>
-            <a href="#home"><i class="fas fa-home"></i></a>
-          </li>
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#skills">SKILLS</a></li>
-          <li><a href="#projects">PROJECTS</a></li>
-          <li><a href="#education">EDUCATION</a></li>
-          <li><a href="#contacts">CONTACTS</a></li>
-        </ul>
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light fixed-top nav-color"
+      >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#home">
+              <i class="fa fa-home"></i>
+            </a>
+            <a class="nav-item nav-link" href="#about">ABOUT</a>
+            <a class="nav-item nav-link" href="#skills">SKILLS</a>
+            <a class="nav-item nav-link" href="#projects">PROJECTS</a>
+            <a class="nav-item nav-link" href="#education">EDUCATION</a>
+            <a class="nav-item nav-link" href="#contacts">CONTACTS</a>
+          </div>
+        </div>
       </nav>
     </header>
 
@@ -82,9 +97,7 @@
 
     <section id="about" class="about">
       <h1>ABOUT</h1>
-        <h2 id="h2-about">
-        </h2>
-      </div>
+      <h2 id="h2-about"></h2>
     </section>
 
     <section id="skills" class="skills">
@@ -177,64 +190,83 @@
           <img src="public/images/logo-sql-server.png" class="icon-sql" />
         </div>
       </div>
-    </section>    
+    </section>
 
     <section id="projects" class="projects">
-    <div class="projects-group">
-      <h1>PROJECTS</h1>
-      <div
-        id="carouselExampleControls"
-        class="carousel slide "
-        data-ride="carousel"
-      >
-      <div class="card-projects-group">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="cards-ptojrcts"></div>
-            <div class="card" style="width: 50rem;">
-              <img class="card-img-top" src="public/images/logo.png" alt="Logo FullStoQ">
-              <div class="card-body">
-                <p class="card-text" style="font-size: 20px;">
-                  In the current situation where we find ourselves, a pandemic state, and the trip to
-                  supermarket cannot be avoided 100%, this web application offers inventory verification
-                  supermarkets, marking places in the queue and also checking the status of the queues formed outside.
-                </p>
+      <div class="projects-group">
+        <h1>PROJECTS</h1>
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="card-projects-group">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card cards-projects" style="width: 50rem;">
+                  <img
+                    class="card-img-top"
+                    src="public/images/logo.png"
+                    alt="Logo FullStoQ"
+                  />
+                  <div class="card-body">
+                    <p class="card-text" style="font-size: 20px;">
+                      In the current situation where we find ourselves, a
+                      pandemic state, and the trip to supermarket cannot be
+                      avoided 100%, this web application offers inventory
+                      verification supermarkets, marking places in the queue and
+                      also checking the status of the queues formed outside.
+                    </p>
+                  </div>
+                </div>
               </div>
-            </div>                
+              <div class="carousel-item">
+                <div class="card" style="width: 40rem;">
+                  <img
+                    class="card-img-top"
+                    src="public/images/logo-lennuyeuse.png"
+                    alt="Logo Lennuyeuse"
+                  />
+                  <div class="card-body">
+                    <p class="card-text" style="font-size: 20px;">
+                      It consists of a restaurant management web application,
+                      where it is possible to register: employees, dishes of the
+                      day, fixed menu, opening hours, among other types of
+                      records.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleControls"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleControls"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
-          <div class="carousel-item">
-            <div class="card" style="width: 40rem;" >
-              <img class="card-img-top" src="public/images/logo-lennuyeuse.png" alt="Logo Lennuyeuse">
-              <div class="card-body">
-                <p class="card-text" style="font-size: 20px;">
-                  It consists of a restaurant management web application, where it is possible to register: employees, dishes of the day, fixed menu, opening hours, among other types of records.</p>
-              </div>
-            </div> 
-      </div>  
-    </div>       
-          <a
-            class="carousel-control-prev"
-            href="#carouselExampleControls"
-            role="button"
-            data-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a
-            class="carousel-control-next" 
-            href="#carouselExampleControls"
-            role="button"
-            data-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
         </div>
-      </div> 
- 
-    </section>  
-   
+      </div>
+    </section>
+
     <section id="education" class="education">
       <div class="education-group">
         <h1>EDUCATION</h1>
@@ -278,10 +310,15 @@
                     target="_blank"
                     class="card-img"
                     alt="Icon Recodme"
-                    style="width: 90px; height: auto; background-color: blue; margin: 20px;"
+                    style="
+                      width: 90px;
+                      height: auto;
+                      background-color: blue;
+                      margin: 20px;
+                    "
                 /></a>
-  
-                <p class="category">Programming CSharp - Recodme. </p>
+
+                <p class="category">Programming CSharp - Recodme.</p>
                 <div class="list-education-recodme">
                   <ul>
                     <li>Internal computer architecture.</li>
@@ -293,14 +330,15 @@
                     <li>C # programming.</li>
                     <li>ASP.Net programming.</li>
                     <li>
-                      Programming of distributed systems - Web services with .Net.
+                      Programming of distributed systems - Web services with
+                      .Net.
                     </li>
                   </ul>
                 </div>
-  
+
                 <p class="text-info">2020</p>
               </div>
-  
+
               <div
                 class="tab-pane"
                 id="IFES"
@@ -316,14 +354,15 @@
                     style="width: 120px; height: auto;"
                   />
                 </a>
-                <p class="category"> 
-                  Technique Industrial Automation</p>
+                <p class="category">
+                  Technique Industrial Automation
+                </p>
                 <p class="text-info">2018</p>
               </div>
             </div>
           </div>
         </div>
-      </div>     
+      </div>
     </section>
 
     <section id="contacts" class="contacts">
@@ -340,7 +379,7 @@
 
     <footer class="footer">
       <div class="footer-container">
-       <i class="fas fa-map-pin text-footer"></i> Lisbon 🇵🇹 - 2020
+        <i class="fas fa-map-pin text-footer"></i> Lisbon 🇵🇹 - 2020
       </div>
     </footer>
     <script
@@ -358,8 +397,6 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="./public/js/scripts.js"
-    ></script>
+    <script src="./public/js/scripts.js"></script>
   </body>
 </html>

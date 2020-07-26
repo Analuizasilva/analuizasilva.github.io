@@ -14,7 +14,7 @@
 }
 
 .menu {
-  font-family: Montserrat;
+  font-family: Muli, Helvética, H, Trebuchet MS;
   background-color: brown;
   position: fixed;
   width: 100vw;
@@ -41,15 +41,19 @@ a:hover {
   list-style: none;
 }
 
-.menu a {
-  display: block;
-  padding: 10px 20px;
-  color: blanchedalmond;
-}
-
 .home {
   padding-top: 165px;
   height: 100vh;
+}
+
+.nav-color {
+  background-color: brown !important;
+}
+
+.nav-color a {
+  display: block !important;
+  padding: 10px 20px !important;
+  color: blanchedalmond !important;
 }
 
 .photo-container {
@@ -117,6 +121,14 @@ a:hover {
   height: 100vh;
 }
 
+.about h1 {
+  font-family: Arial, "Times New Roman", Times, serif;
+  font-size: 35px;
+  color: brown;
+  text-align: center;
+  font-weight: bold;
+}
+
 .about h2 {
   font-family: "Noto Serif", Georgia, serif;
   margin-top: 35px;
@@ -168,12 +180,19 @@ a:hover {
   padding-bottom: 50px;
 }
 
-.about h1,
+.about h1 {
+  font-family: Arial, "Times New Roman", Times, serif;
+  font-size: 35px;
+  color: brown;
+  text-align: center;
+  font-weight: bold;
+}
+
 .skills h1,
 .education h1,
 .contacts h1,
 .projects h1 {
-  font-family: Josefin Sans;
+  font-family: Arial, "Times New Roman", Times, serif;
   font-size: 35px;
   text-align: center;
   color: brown;
@@ -207,6 +226,7 @@ a:hover {
 
 .projects-group {
   padding-top: 250px;
+  position: a;
 }
 
 .card-projects-group {
