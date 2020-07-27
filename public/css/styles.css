@@ -144,36 +144,6 @@ a:hover {
   padding-top: 200px;
 }
 
-@media (min-width: 560px) {
-  .skills .grid {
-    grid-template-columns: px 240px;
-  }
-}
-
-@media (min-width: 880px) {
-  .skills .grid {
-    grid-template-columns: repeat(5, 200px);
-    align-content: center;
-    justify-content: center;
-    height: calc(30vh -30vh - 48px - 8em);
-  }
-}
-
-@media (min-width: 560px) {
-  .menu .grid {
-    grid-template-columns: px 240px;
-  }
-}
-
-@media (min-width: 880px) {
-  .menu .grid {
-    grid-template-columns: repeat(4, 200px);
-    align-content: center;
-    justify-content: center;
-    height: calc(30vh -30vh - 48px - 8em);
-  }
-}
-
 .icon-sql {
   width: 200px;
   height: auto;
