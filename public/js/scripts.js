@@ -14,7 +14,7 @@ const idade = (day, month, year) => {
 
 const h2About = document.getElementById("h2-about");
 
-h2About.innerText = `I'm Ana Luiza Silva, Brazilian and from the state of Minas Gerais. I am ${idade(
+h2About.innerText = `I'm Ana Luiza Silva, Brazilian and from the state of Minas Gerais. Passionate about traveling and living new life experiences.  I am ${idade(
   24,
   07,
   1996
