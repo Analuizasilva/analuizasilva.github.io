@@ -229,8 +229,10 @@ a:hover {
   position: a;
 }
 
-.card-projects-group {
-  padding-left: 600px;
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
 }
 
 .carousel-control-prev-icon,
@@ -247,7 +249,6 @@ a:hover {
 }
 
 .education {
-  margin-bottom: 100px;
   height: 100vh;
 }
 
@@ -264,10 +265,12 @@ a:hover {
 }
 
 .card-ifes {
-  margin-left: 700px;
   position: static;
   box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
 }
 
 .icon-ifes {
