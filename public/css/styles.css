@@ -129,14 +129,9 @@ a:hover {
   font-weight: bold;
 }
 
-.about h2 {
-  font-family: "Noto Serif", Georgia, serif;
+.about p {
   margin-top: 35px;
-  margin-bottom: 300px;
-  margin-left: 200px;
-  margin-right: 200px;
   font-size: 30px;
-  text-align: justify;
 }
 
 .skills {
