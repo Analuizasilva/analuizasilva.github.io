@@ -14,8 +14,8 @@ const idade = (day, month, year) => {
 
 const h2About = document.getElementById("h2-about");
 
-h2About.innerText = `Sou Ana Luiza Silva, brasileira e natural do estado de Minas Gerais. Tenho ${idade(
+h2About.innerText = `I'm Ana Luiza Silva, Brazilian and from the state of Minas Gerais. I am ${idade(
   24,
   07,
   1996
-)} anos, e atualmente vivo em Lisboa. Formada em Tecnico em automação industrial pelo instituto Federal do Espirito Santo, e sem experiencia profissional na area, decidi recomeçar minha carreira profissional e me dedicar a uma vontade pessoal pela area da programação. Atualmente encontro-me em formação em contexto de trabalho pelo curso recodme de programação em C#. `;
+)}years old and currently live in Lisbon. Graduated in Industrial Automation Technician from the Federal Institute of Espirito Santo, and without professional experience in the area, I decided to start my professional career again and dedicate myself to a personal will for the area of ​​programming. I am currently in training in a work context through the C # programming course. `;
