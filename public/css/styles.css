@@ -131,7 +131,10 @@ a:hover {
 
 .about p {
   margin-top: 35px;
-  font-size: 30px;
+  font-size: 35px;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 .skills {
